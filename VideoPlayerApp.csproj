@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="+15.png" />
+    <None Remove="-15.png" />
+    <None Remove="folder.png" />
+    <None Remove="open.png" />
+    <None Remove="pause.png" />
+    <None Remove="play-button-4.png" />
+    <None Remove="play-button.png" />
+    <None Remove="play-button_17470816.png" />
+    <None Remove="icons8-pause-100.png" />
+    <None Remove="stop-button-1.png" />
+    <None Remove="stop-button.png" />
+    <None Remove="Εικόνα1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="+15.png" />
+    <Resource Include="-15.png" />
+    <Resource Include="folder.png" />
+    <Resource Include="open.png" />
+    <Resource Include="pause.png" />
+    <Resource Include="play-button-4.png" />
+    <Resource Include="play-button.png" />
+    <Resource Include="play-button_17470816.png" />
+    <Resource Include="icons8-pause-100.png" />
+    <Resource Include="stop-button-1.png" />
+    <Resource Include="stop-button.png" />
+    <Resource Include="Εικόνα1.png" />
+  </ItemGroup>
+
+</Project>
